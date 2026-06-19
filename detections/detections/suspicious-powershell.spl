@@ -1,0 +1,3 @@
+index=windows sourcetype=WinEventLog:Microsoft-Windows-PowerShell/Operational
+| search ScriptBlockText="*Invoke-WebRequest*" OR ScriptBlockText="*DownloadString*" OR ScriptBlockText="*EncodedCommand*"
+| table _time host user ScriptBlockText
