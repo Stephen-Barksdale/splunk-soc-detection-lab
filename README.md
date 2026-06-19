@@ -23,3 +23,7 @@ splunk-soc-detection-lab/
   sample-logs/
   incident-reports/
   screenshots/
+
+Disclaimer
+
+This repository uses lab-created or sanitized sample logs only. No real employer, government, client, or sensitive log data is included.
